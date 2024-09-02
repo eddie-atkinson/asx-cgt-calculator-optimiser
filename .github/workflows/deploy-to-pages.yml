@@ -1,4 +1,6 @@
 name: Build and Deploy
+env:
+  NODE_OPTIONS: --openssl-legacy-provider
 on:
   push:
     branches:
